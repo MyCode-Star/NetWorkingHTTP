@@ -1,7 +1,13 @@
 # NetWorkingHTTP-
 
-1、在需要用到的头文件中引入NetWorkingHTTP
+1、在需要用到的头文件中引入NetWorkingHTTP和Reachability
+
+
+
+
 2、使用需要的方法：post或者是get方法
+
+
 3、具体使用方法如下
 
 /**

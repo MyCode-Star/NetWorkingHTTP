@@ -21,7 +21,9 @@ NSString *url = @"http://api.k780.com:88/?app=weather.future&weaid=1&&appkey=100
 
     //有网络才发送请求
     if([BSYNetWorkingHTTP bsy_NetWorkIsNetWorking]){
+    
         //发送请求，并且得到返回的数据
+        
       NSString * str= [BSYNetWorkingHTTP bsy_getDataByURL:url];
         
         /**
@@ -46,8 +48,11 @@ NSString *url = @"http://api.k780.com:88/?app=weather.future&weaid=1&&appkey=100
 
 
     //有网络才发送请求
+    
     if([BSYNetWorkingHTTP bsy_NetWorkIsNetWorking]){
+    
         //发送请求，并且得到返回的数据
+        
         UIImage * str= [BSYNetWorkingHTTP bsy_getImageByURL:url];
 
 
@@ -66,6 +71,7 @@ NSString *url = @"http://api.k780.com:88/?app=weather.future&weaid=1&&appkey=100
 
 
     //有网络才发送请求
+    
     if([BSYNetWorkingHTTP bsy_NetWorkIsNetWorking]){
    
         NSDictionary *tempDic = @{@"phone":@"baishiyun",
